@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'Cormas',
+      #baseline : 'SpecUIAddOns',
       #directory : 'repository',
       #onWarningLog: true,
       #onConflict : #useLoaded,
@@ -10,6 +10,6 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #categories : [ 'Cormas-*' ]
+    #categories : [ 'SpecUIAddOns-*' ]
   }
 }
